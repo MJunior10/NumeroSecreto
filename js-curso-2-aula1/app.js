@@ -44,9 +44,9 @@ function verificaChute() {
 
 function geraNumeroAleatorio() {
   let numeroSorteado = parseInt(Math.random() * qtdNumero + 1);
-  let qtdeNumeros = listaNumSort.length;
+  let qtdeMaxNumero = listaNumSort.length;
 
-  if (qtdeNumeros == qtdeNumeros) {
+  if (qtdeNumero == qtdeMaxNumero) {
     listaNumSort = [];
   }
   if (listaNumSort.includes(numeroSorteado)) {
