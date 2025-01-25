@@ -46,7 +46,7 @@ function geraNumeroAleatorio() {
   let numeroSorteado = parseInt(Math.random() * qtdNumero + 1);
   let qtdeMaxNumero = listaNumSort.length;
 
-  if (qtdeNumero == qtdeMaxNumero) {
+  if (qtdNumero == qtdeMaxNumero) {
     listaNumSort = [];
   }
   if (listaNumSort.includes(numeroSorteado)) {
